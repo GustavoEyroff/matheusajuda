@@ -1,0 +1,9 @@
+if: A estrutura if permite que você execute um bloco de código somente se a condição especificada for verdadeira. 
+Se a condição não for atendida, o bloco de código dentro do if não será executado. 
+
+else if: A estrutura else if é usada quando você deseja verificar várias condições diferentes em sequência. 
+Se a condição do if não for atendida, o código dentro do bloco else if será verificado. 
+Você pode ter quantos blocos else if quiser.
+
+else: A estrutura else é usada para especificar um bloco de código que será executado quando nenhuma das condições anteriores 
+(if e else if) for verdadeira. É como um "caso contrário".

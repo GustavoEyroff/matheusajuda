@@ -1,0 +1,23 @@
+Em C#, while é uma estrutura de controle que permite repetir um bloco de código enquanto uma condição for verdadeira. É como um loop que continua executando até que a condição especificada se torne falsa.
+Aqui está uma explicação passo a passo:
+Início: O código dentro do bloco while começa a ser executado.
+Condição: Antes de cada repetição, a condição é verificada. Se a condição for verdadeira, o código dentro do bloco é executado novamente. Se for falsa, o loop é interrompido e a execução continua após o bloco while.
+Repetição: O código dentro do bloco while é executado novamente, desde que a condição permaneça verdadeira.
+Fim: Quando a condição se tornar falsa, a execução sai do loop while e continua com o código após o bloco.
+
+Aqui está um exemplo simples de como o while funciona em C#:
+
+int contador = 0;
+
+while (contador < 5)
+{
+    Console.WriteLine("Contador: " + contador);
+    contador++; // Incrementa o contador a cada repetição
+}
+Neste exemplo, o código dentro do while será executado enquanto o valor da variável contador for menor que 5. A cada repetição, o contador é incrementado, e o valor é impresso. Quando o contador atingir 5, a condição se tornará falsa e o loop while será interrompido.
+
+Lembre-se de que é importante ter cuidado ao usar o while, pois se a condição nunca se tornar falsa, o loop continuará indefinidamente, causando um "loop infinito". Certifique-se de que a condição eventualmente se torne falsa para evitar isso.
+
+
+
+

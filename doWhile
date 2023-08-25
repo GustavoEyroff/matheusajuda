@@ -1,0 +1,21 @@
+O do-while em C# é outra estrutura de controle de repetição, semelhante ao while, mas com uma diferença importante: o código dentro do bloco é executado pelo menos uma vez, independentemente da condição.
+Aqui está uma explicação passo a passo do do-while:
+Início: O código dentro do bloco do começa a ser executado.
+Execução: O código dentro do bloco é executado pelo menos uma vez, sem verificar a condição ainda.
+Condição: Após a primeira execução do bloco do, a condição é verificada. Se a condição for verdadeira, o código dentro do bloco é executado novamente. Se for falsa, o loop é interrompido e a execução continua após o bloco do-while.
+Repetição: Se a condição for verdadeira, o código dentro do bloco do é executado novamente. A condição é verificada após cada repetição.
+Fim: Quando a condição se tornar falsa, a execução sai do loop do-while e continua com o código após o bloco.
+
+Aqui está um exemplo simples de como o do-while funciona em C#:
+
+
+int contador = 0;
+
+do
+{
+    Console.WriteLine("Contador: " + contador);
+    contador++; // Incrementa o contador a cada repetição
+} while (contador < 5);
+Neste exemplo, o código dentro do do é executado pelo menos uma vez, porque a verificação da condição ocorre após a primeira execução. Depois disso, o código é repetido enquanto o valor do contador for menor que 5, assim como acontece no while tradicional.
+
+O do-while é útil quando você precisa garantir que um certo bloco de código seja executado pelo menos uma vez, independentemente da condição.
